@@ -1,0 +1,87 @@
+
+.head {
+	font-family: "Times New Roman", Times, serif;
+	background-image: url(image/head.jpg);
+}
+.container {
+        width: 500px;
+        padding: 15px;
+        margin: 3px 0 20px 0;
+        border: 1px solid #ccc;
+        background: #fff;
+}
+
+/* circle */
+
+#navCircle {
+        margin: 0;
+        padding: 0 0 20px 10px;
+        border-bottom: 1px solid #9FB1BC;
+}
+
+#navCircle li {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+}
+
+#navCircle a:link, #navCircle a:visited {
+        float: left;
+        font-size: 10px;
+        line-height: 14px;
+        font-weight: bold;
+        padding: 0 12px 6px 12px;
+        text-decoration: none;
+        color: #708491;
+}
+
+#navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
+        padding-bottom: 6px;
+        color: #000;
+        background: url(image/Circle.gif) no-repeat bottom center;
+}
+
+
+        
+body {
+        font-family: verdana, sans-serif;
+        font-size: 11px;
+        background: #eeeeee;
+}
+
+h4 {
+        font-size: 100%;
+        color: #999;
+        margin: 0;
+}
+               
+
+
+.style4 {font-size: 16px}
+.style6 {
+	font-size: 24px;
+	font-family: "Courier New", Courier, mono;
+	color: #003366;
+}
+.style9 {
+	font-family: "Courier New", Courier, mono;
+	color: #999999;
+}
+.style11 {
+	font-family: "Courier New", Courier, mono;
+	color: #006699;
+}
+.style13 {
+	font-family: "Courier New", Courier, mono;
+	color: #666666;
+}
+.style15 {
+	font-family: "Courier New", Courier, mono;
+	color: #333333;
+}
+.style17 {
+	font-family: "Courier New", Courier, mono;
+	font-weight: bold;
+}
+.style21 {font-family: "Courier New", Courier, mono}

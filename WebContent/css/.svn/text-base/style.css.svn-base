@@ -1,0 +1,73 @@
+.unnamed1 {
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+}a:visited {
+	font-size: 12px;
+	line-height: 20px;
+	color: #3366FF;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	line-height: 20px;
+	color: #CC0000;
+	text-decoration: underline;
+}
+a:link {
+	font-size: 12px;
+	line-height: 20px;
+	color: #0033CC;
+	text-decoration: none;
+}
+
+
+body {
+	font-size: 12px;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+td {
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+}
+.title{
+	font-size: 12px;
+	color: FE6400;
+	font-weight: normal;
+
+}
+.time {
+	font-size: 12px;
+	color: #666666;
+}
+.button1 {
+	background-image: url(../image/btbg1.gif);
+	height: 25px;
+	width: 81px;
+	border: none;
+	background-color: #FFFFFF;
+	font-size: 12px;
+
+
+}
+.button2 {
+	background-image: url(../image/btbg2.jpg);
+	height: 25px;
+	width: 113px;
+	border: none;
+	font-size: 12px;
+
+}
+.input1 {
+	font-size: 12px;
+	background-color: #E6EAF7;
+	height: 17px;
+	border: 1px solid #9FA5CA;
+	padding: 1px;
+	color: #000066;
+
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {color: #000000}
+-->
+</style>
+</head>
+
+<body bgcolor="#E0E0E0" leftmargin="0" topmargin="0">
+<div style="background-image: url('../managerpicture/bottombg.jpg'); height: 25px;width: 100%;" >
+     <div style="margin-left: 600px;"> <div>向西版权所有！</div></div>
+</div>
+<script Language="JavaScript">
+
+var msg=" ***吴刚***电子商城后台管理系统";
+var interval = 100;
+
+var spacelen = 120;
+
+var space10=" ";
+
+var seq=0;
+
+function Scroll() { 
+
+len = msg.length;
+
+window.status = msg.substring(0, seq+1);
+
+seq++;
+
+if ( seq >= len ) { 
+
+seq = spacelen; 
+
+window.setTimeout("Scroll2();", interval );
+
+}
+
+else
+
+window.setTimeout("Scroll();", interval );
+
+} 
+
+function Scroll2() { 
+
+var out="";
+
+for (i=1; i<=spacelen/space10.length; i++) out += 
+
+space10;
+
+out = out + msg;
+
+len=out.length;
+
+window.status=out.substring(seq, len);
+
+seq++;
+
+if ( seq >= len ) { seq = 0; };
+
+window.setTimeout("Scroll2();", interval );
+
+} 
+
+Scroll();
+
+</script>
+</body>
+</html>
+
+
+
+
+
